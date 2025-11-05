@@ -1,0 +1,79 @@
+[general]
+working_directory = "None"
+
+live_config_reload = true
+
+ipc_socket = true
+import = ["<string>",]
+
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+
+[window]
+dimensions = {columns = 160, lines = 48}
+
+position = "None"
+
+padding = {x = 0, y = 0}
+
+dynamic_padding = true
+
+decorations = "Full"
+
+opacity = 1
+
+blur = false
+
+startup_mode = "Windowed"
+
+title = "Alacritty"
+
+dynamic_title = true
+
+decorations_theme_variant = "None"
+
+resize_increments = false
+
+option_as_alt = "None"
+
+level = "Normal"
+
+
+[scrolling]
+history = 10000
+
+multiplier = 3
+
+
+[font]
+normal = {family = "Menlo", style = "Regular"}
+
+bold = {style = "Bold"}
+
+italic = {style = "Italic"}
+
+bold_italic = {style = "Bold Italic"}
+
+size = 14
+
+offset = {x = 0, y = 0}
+
+builtin_box_drawing = true
+
+
+[colors]
+
+[colors.primary]
+foreground = "#d8d8d8"
+
+background = "#181818"
+
+dim_foreground = "#828482"
+
+bright_foreground = "None"
+
+#cursor = {text = "CellBackground", cursor = "CellForeground"}
+
+#vi_mode_cursor = 
