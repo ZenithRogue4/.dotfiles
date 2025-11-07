@@ -1,0 +1,44 @@
+00:00:00.000186 main     VirtualBox XPCOM Server 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.000189 main     Log opened 2025-11-01T20:55:00.901615000Z
+00:00:00.000189 main     Build Type: release
+00:00:00.000191 main     OS Product: Linux
+00:00:00.000191 main     OS Release: 6.17.6-arch1-1
+00:00:00.000192 main     OS Version: #1 SMP PREEMPT_DYNAMIC Wed, 29 Oct 2025 22:23:47 +0000
+00:00:00.000210 main     DMI Product Name: Aspire TC-885
+00:00:00.000216 main     DMI Product Version: 
+00:00:00.000220 main     Firmware type: UEFI
+00:00:00.000952 main     Secure Boot: Disabled
+00:00:00.000978 main     Host RAM: 11838MB (11.5GB) total, 9799MB (9.5GB) available
+00:00:00.000980 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000981 main     Process ID: 9096
+00:00:00.000981 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.006154 main     IPC socket path: /tmp/.vbox-jadencodes-ipc/ipcd
+00:00:00.008669 DCon01   VirtualBox: object creation starts
+00:00:00.008715 DCon01   Home directory: '/home/jadencodes/.config/VirtualBox'
+00:00:00.009242 DCon01   HostDnsMonitor: initializing
+00:00:00.009336 DCon01   NAT: resolv.conf: nameserver 192.152.0.1
+00:00:00.009341 DCon01   NAT: resolv.conf: nameserver 192.152.0.2
+00:00:00.009350 DCon01   HostDnsMonitor: updating information
+00:00:00.009360 DCon01   HostDnsMonitor: old information
+00:00:00.009361 DCon01     no server entries
+00:00:00.009363 DCon01     no domain set
+00:00:00.009364 DCon01     no search string entries
+00:00:00.009365 DCon01   HostDnsMonitor: new information
+00:00:00.009366 DCon01     server 1: 192.152.0.1
+00:00:00.009367 DCon01     server 2: 192.152.0.2
+00:00:00.009368 DCon01     no domain set
+00:00:00.009369 DCon01     no search string entries
+00:00:00.010518 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.010610 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.010674 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.011386 DCon01   VirtualBox: object created
+00:00:00.598502 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:00.935187 DCon02   Saving settings file "/home/jadencodes/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.945729 DCon02   Finished saving settings file "/home/jadencodes/.config/VirtualBox/VirtualBox.xml"
+00:00:20.832075 DCon03   Saving settings file "/home/jadencodes/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:20.838065 DCon03   Finished saving settings file "/home/jadencodes/.config/VirtualBox/VirtualBox.xml"
+00:00:26.885870 main     VirtualBox: object deletion starts
+00:00:26.886853 main     HostDnsMonitor: shutting down ...
+00:00:26.896122 main     HostDnsMonitor: shut down
+00:00:26.907360 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:26.907547 main     VirtualBox: object deleted
