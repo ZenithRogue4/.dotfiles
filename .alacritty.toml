@@ -12,7 +12,7 @@ WINIT_X11_SCALE_FACTOR = "1.0"
 
 
 [window]
-dimensions = {columns = 160, lines = 48}
+dimensions = {columns = 80, lines = 24}
 
 position = "None"
 
