@@ -68,7 +68,7 @@ builtin_box_drawing = true
 [colors.primary]
 foreground = "#d8d8d8"
 
-background = "#181818"
+background = "#000000"
 
 dim_foreground = "#828482"
 
