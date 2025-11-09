@@ -12,7 +12,7 @@ WINIT_X11_SCALE_FACTOR = "1.0"
 
 
 [window]
-dimensions = {columns = 80, lines = 24}
+dimensions = {columns = 120, lines = 36}
 
 position = "None"
 
@@ -56,7 +56,7 @@ italic = {style = "Italic"}
 
 bold_italic = {style = "Bold Italic"}
 
-size = 12
+size = 14
 
 offset = {x = 0, y = 0}
 
