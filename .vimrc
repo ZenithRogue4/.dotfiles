@@ -28,8 +28,26 @@ set nowrap
 " Don't Create Swap Files
 set nobackup
 
-" Disable Arrow Keys
+" Disable Arrow Keys (Command Mode)
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+" Disable Arrow Keys (Insert Mode)
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
+" Disable Arrow Keys (Visual Mode)
+vnoremap <Up> <Nop>
+vnoremap <Down> <Nop>
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+
+" Disable Arrow Keys (Normal Mode)
+nnoremap <Up> <Nop>
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
