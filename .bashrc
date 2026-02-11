@@ -1,8 +1,10 @@
-. ~/.linuxify
+#. ~/.linuxify
 
 # System Commands
 alias ls='ls -lF'
 alias sb='source ~/.bashrc'
+alias c='clear'
+alias q='exit'
 
 # SSH Connections for PSU
 alias ada='ssh jadenrol@ada.cs.pdx.edu'

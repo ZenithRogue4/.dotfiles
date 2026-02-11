@@ -51,6 +51,8 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+exec feh --bg-scale /home/jadencodes/755769.jpg
+
 # new browser session
 bindsym $mod+b exec firefox
 bindsym $mod+Shift+b exec firefox --private-window
@@ -192,7 +194,8 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-	position top
-        status_command i3status
-}
+exec polybar
+#bar {
+	#position top
+        #status_command i3status
+#}
