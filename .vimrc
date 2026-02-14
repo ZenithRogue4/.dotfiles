@@ -20,7 +20,8 @@ set number
 set cursorline
 
 " Set color theme for the editor
-colorscheme desert
+set background=dark
+colorscheme retrobox
 
 " Set Text to Not Wrap Around Editor
 set nowrap
