@@ -1,10 +1,12 @@
 #. ~/.linuxify
 
 # System Commands
+alias manpy='python -m pydoc'
 alias ls='ls -lF'
 alias sb='source ~/.bashrc'
 alias c='clear'
 alias q='exit'
+alias t='tmux'
 
 # SSH Connections for PSU
 alias ada='ssh jadenrol@ada.cs.pdx.edu'
@@ -19,3 +21,7 @@ alias sbabbage='sftp jadenrol@babbage.cs.pdx.edu'
 alias scada='sftp jadenrol_cat@ada.cs.pdx.edu'
 alias scbabbage='sftp jadenrol_cat@babbage.cs.pdx.edu'
 alias sstargate='sftp jadenrol_cat@stargate.cat.pdx.edu'
+
+# temporary for 302
+alias lab='ssh jadenrol@cs302lab.cs.pdx.edu'
+alias demo='ssh jadenrol@quizortest.cs.pdx.edu'
